@@ -7,7 +7,9 @@
 #include <cstdlib>
 #include <cctype>
 #include <ctime>
-
+#include <yaml-cpp/yaml.h>
+#include <iostream>
+#include <vector>
 
 class dhcomplyStandardLibrary {
 

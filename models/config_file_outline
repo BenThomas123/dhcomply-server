@@ -1,0 +1,36 @@
+interface:
+   list: []
+
+iana: T1, T2, valid lft, preferred lft
+iapd: T1, T2, valid lft, preferred lft
+
+domain search list: []
+dns recursive server: []
+ntp server: []
+sip server: []
+snmp server: []
+sntp server: []
+geographical location:
+LDAP: []
+FDQN: []
+
+duid type:
+  ll:
+  ll-time:
+  uuid:
+  vendor:
+
+rapid commit: boolean
+
+reconfigure: int
+
+address:
+    pools:
+
+prefixes:
+    pools:
+    prefix length:
+
+log messages:
+    level: info, debug, warning, error
+    file: /var/log/dhcomply.log
